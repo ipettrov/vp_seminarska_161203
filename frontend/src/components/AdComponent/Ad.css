@@ -1,0 +1,29 @@
+.ad {
+    display: block;
+    padding: 20px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0 0 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.05) 0 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 0 20px;
+}
+.ad + .ad {
+    margin-top: 15px;
+}
+.ad img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+.ad h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #121212;
+}
+.ad p {
+    margin: 0;
+    font-size: 13px;
+}

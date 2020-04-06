@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    padding: 15px;
+    background: #fff;
+    z-index:99;
+    box-shadow: rgba(0,0,0,0.1) 0 10px 25px;
+}
+.header label {
+    display: inline-block;
+    vertical-align: middle;
+}
+.header .brand a {
+    font-weight: 700;
+    color: #121212;
+    font-size:16px;
+}
+.header .link {
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+}
+.header .link + .link {
+    margin-left: 15px;
+}
+.header .message {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #eee;
+    font-size: 13px;
+}
+
+.login-screen {
+    display: block;
+    padding: 60px 0;
+}
+.login-screen h3 {
+    font-weight: 600;
+}
+.login-screen p {
+    font-size: 14px;
+}
+.login-screen .form-group {
+    margin-bottom: 15px;
+}
+.login-screen .form-group label {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 12px;
+    color: #7a7a7a;
+}
+
+.home-page {
+    padding: 60px 0;
+    text-align: center;
+}
+.home-page h3 {
+    font-weight: 600;
+    color: #121212;
+}
+.home-page img {
+    user-select: none;
+    pointer-events: none;
+}
+
+.ads-wrapper {
+    display: block;
+    padding: 40px 0;
+}
+
+.ad-details {
+    padding: 60px 0;
+}
+.ad-details img {
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.ad-details h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.ad-details p {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.ad-details p span {
+    display: block;
+    font-size: 11px;
+    color: #7a7a7a;
+}
+.ad-details p b {
+    display: block;
+    font-weight: 600;
+}
